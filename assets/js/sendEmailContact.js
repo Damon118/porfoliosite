@@ -2,11 +2,9 @@
 
 function sendMail(contactForm) {
     emailjs.send("gmail", "template_epikr0t", {
-            "firstname": contactForm.firstname.value,
-            "lastname": contactForm.lastname.value,
-            "number": contactForm.number.value,
+            "name": contactForm.name.value,
             "email": contactForm.email.value,
-            "message": contactForm.message.value
+            "projectsummary": contactForm.projectsummary.value
         })
 
         .then(
