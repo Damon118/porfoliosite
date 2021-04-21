@@ -30,12 +30,16 @@
     background-color: #9b59b6;
 }
 
-.ui-menu-color-contact {
-    background-color: #3498db;
-}
-
 .ui-menu-color-download {
     background-color: #525252;
+}
+
+.ui-menu-color-consultation {
+    background-color: #64d342;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
 }
 
 .row-table {
